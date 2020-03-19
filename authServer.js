@@ -1,4 +1,6 @@
-require('dotenv').config()
+require('dotenv').config({
+    path: __dirname + '/./../envs/jwtauth/.env'
+})
 
 const express = require('express')
 const app = express()
